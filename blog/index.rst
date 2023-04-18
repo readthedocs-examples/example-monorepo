@@ -3,8 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Monorepo Project 2's documentation!
-==============================================
+Blog
+====
+
+
+.. postlist::
+   :list-style: circle
+   :category: Manual
+   :format: {title}
+   :sort:
 
 .. toctree::
    :maxdepth: 2

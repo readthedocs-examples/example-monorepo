@@ -6,19 +6,19 @@ build:
     python: "3.10"
   jobs:
     post_checkout:
-      # Cancel building pull requests when they do not change project2.
+      # Cancel building pull requests when they do not change blog.
       #
       # If there are no changes (git diff exits with 0) we force the command to return with 183.
       # This is a special exit code on Read the Docs that will cancel the build immediately.
       - |
-        if [ "$READTHEDOCS_VERSION_TYPE" = "external" ] && git diff --quiet origin/monorepo -- project2;
+        if [ "$READTHEDOCS_VERSION_TYPE" = "external" ] && git diff --quiet origin/monorepo -- blog;
         then
           exit 183;
         fi
 
 sphinx:
-  configuration: project2/conf.py
+  configuration: blog/conf.py
 
 python:
   install:
-    - requirements: project2/requirements.txt
+    - requirements: blog/requirements.txt

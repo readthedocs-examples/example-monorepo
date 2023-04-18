@@ -17,9 +17,10 @@ main
 This is the "main" project that nests other subprojects.
 It uses the latest version of Sphinx.
 
-project2
---------
+blog
+----
 
+Completely different type of project.
 Builds with Sphinx 5.x.
 
 docusaurus
