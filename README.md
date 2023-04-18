@@ -1,5 +1,7 @@
 # Example of a monorepo setup on Read the Docs
 
+[![Documentation Status](https://readthedocs.org/projects/monorepo-example/badge/?version=latest)](https://monorepo-example.readthedocs.io/en/latest/?badge=latest)
+
 This project demonstrates having multiple `.readthedocs.yaml` files in the same repository in order to host nested documentation subprojects on Read the Docs.
 
 You can read about the feature here:
