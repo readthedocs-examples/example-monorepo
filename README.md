@@ -11,10 +11,11 @@ The feature is new (read: experimental).
 This is an example of a Monorepo with 3 projects.
 Each project isn't highly developed nor pretty.
 
-project1
---------
+main
+----
 
-Contains the latest version of Sphinx.
+This is the "main" project that nests other subprojects.
+It uses the latest version of Sphinx.
 
 project2
 --------
