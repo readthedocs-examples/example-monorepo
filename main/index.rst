@@ -10,8 +10,8 @@ Welcome to Monorepo Project 1's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   blog <https://monorepo-example.readthedocs.io/en/blog/>
-   docusaurus project <https://monorepo-example.readthedocs.io/en/docusaurus/>
+   blog <https://monorepo-example.readthedocs.io/projects/blog/>
+   docusaurus project <https://monorepo-example.readthedocs.io/projects/docusaurus/>
 
 
 Indices and tables
