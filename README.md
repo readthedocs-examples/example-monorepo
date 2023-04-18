@@ -23,7 +23,11 @@ blog
 Completely different type of project.
 Builds with Sphinx 5.x.
 
+Configured to be added as a subproject with alias "blog"
+
 docusaurus
 ----------
+
+This project uses a completely different build environment with Node.
 
 Configured to be added as a subproject with alias "docusaurus"
